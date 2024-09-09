@@ -83,7 +83,7 @@ GRANT CONNECT ON DATABASE newtestdb TO name
 ```
 \dt
 ```
-# PgAdmin 4: Визуальный редактор для PostgresSQL
+# PgAdmin 4: Визуальный редактор для PostgreSQL
 Редактор PgAdmin служит для упрощения управления базой данных PostgreSQL в понятном визуальном режиме.
 1. Для запуска редактора запустите PgAdmin 4 в меню Пуск
 2. Для доступа нужно ввести пароль суперпользователя postgres
