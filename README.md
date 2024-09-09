@@ -102,3 +102,8 @@ Email CHARACTER VARYING(50),
 Age INTEGER
 );
 ```
+3. Для заполнения полей в свойствах таблицы выберите таблицу emp в разделе Schemas -> Tables. Откройте меню Object инструмент View/Edit Data.
+4. После заполнения данных выполним инструментом Query простой запрос на выборку:
+```
+select Email from emp;
+```
