@@ -83,5 +83,22 @@ GRANT CONNECT ON DATABASE newtestdb TO name
 ```
 \dt
 ```
-10. 
- 
+# PgAdmin 4: Визуальный редактор для PostgresSQL
+Редактор PgAdmin служит для упрощения управления базой данных PostgresSQL в понятном визуальном режиме.
+1. Для запуска редактора запустите PgAdmin 4 в меню Пуск
+2. Для доступа нужно ввести пароль суперпользователя postgres
+3. В панели Servers вы можете раскрыть список активных БД.
+
+# Query Tool: использование SQL запросов в PostgreSQL
+1. Выберите базу данных, в панели Tools откройте Query Tool
+2. Создадим таблицу сотрудников:
+```
+CREATE TABLE emp
+(
+Id SERIAL PRIMARY KEY,
+FirstName CHARACTER VARYING(50),
+LastName CHARACTER VARYING(50),
+Email CHARACTER VARYING(50),
+Age INTEGER
+);
+```
