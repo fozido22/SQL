@@ -77,7 +77,8 @@ createuser –U postgres name
 ```
 GRANT CONNECT ON DATABASE newtestdb TO name 
 ```
-выполним привязку пользователя к базе данных 
+выполним привязку пользователя к базе данных
+
 9. Для подключения к новой базе данных выполним команду:
 ```
 \connect newtestdb
