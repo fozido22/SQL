@@ -53,7 +53,7 @@ psql –-U postgres
 ```
 3. Для создания новой базы данных воспользуйтесь утилитой createdb:
 ```
-CREATE DATABASE newtestdb
+CREATE DATABASE newtestdb;
 ```
 4. Выход:
 ```
